@@ -1,0 +1,1 @@
+class Node(var id: Int, var weight: Int, var maxIndicesArrayList: ArrayList<Int>)
