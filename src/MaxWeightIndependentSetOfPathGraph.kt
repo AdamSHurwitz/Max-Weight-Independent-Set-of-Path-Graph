@@ -12,34 +12,21 @@ class MaxWeightIndependentSetOfPathGraph {
             var maxIndicesArrayList = arrayListOf<Int>()
             if (nextMaxIndependentNodeWeight == lastCumWeight) {
                 maxIndicesArrayList.addAll(outputArrayList.get(i - 1).maxIndicesArrayList)
-                println(String.format("lastCumWeight indices: %1s", outputArrayList.get(i - 1).maxIndicesArrayList))
             } else {
                 maxIndicesArrayList.addAll(outputArrayList.get(i - 2).maxIndicesArrayList)
                 maxIndicesArrayList.addAll(inputArrayList.get(i - 1).maxIndicesArrayList)
-                println(String.format("secondLastPlusCurrentCumWeight indices: %1s %2s",
-                        outputArrayList.get(i - 2).maxIndicesArrayList, inputArrayList.get(i - 1).maxIndicesArrayList))
             }
             outputArrayList.add(Node(i, nextMaxIndependentNodeWeight, maxIndicesArrayList))
-
-
-                println(String.format("Max: %1s and %2s + %3s",
-                        outputArrayList.get(i - 1).weight,
-                        outputArrayList.get(i - 2).weight, inputArrayList.get(i - 1).weight))
         }
-
-        /*for (node in outputArrayList) {
-            println(String.format("id:%1s weight:%2s maxIndicesArrayList: %3s",
-                    node.id, node.weight, node.maxIndicesArrayList))
-        }*/
-
-        for(node in inputArrayList) {
-            if (!outputArrayList.get(outputArrayList.size -1).maxIndicesArrayList.contains(node.id)) {
-                binaryOutput += 0
-            } else {
+        var potentialMaxIndySetIndices = arrayListOf<Int>(1, 2, 3, 4, 17, 117, 517, 997)
+        for (potentialMaxIndySetIndex in potentialMaxIndySetIndices) {
+            if (outputArrayList.get(outputArrayList.size - 1).maxIndicesArrayList.contains(potentialMaxIndySetIndex)) {
                 binaryOutput += 1
+            } else {
+                binaryOutput += 0
             }
         }
-        //outputArrayList.get(outputArrayList.size -1).maxIndicesArrayList.toString()
         return binaryOutput
     }
+    //10100110
 }
