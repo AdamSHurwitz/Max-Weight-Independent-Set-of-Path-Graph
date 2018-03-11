@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf152035-4445-45ab-86f2-5bef7970d2b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Node.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MaxWeightIndependentSetofPathGraph/MaxWeightIndependentSetOfPathGraph.class" afterPath="$PROJECT_DIR$/out/production/MaxWeightIndependentSetofPathGraph/MaxWeightIndependentSetOfPathGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MaxWeightIndependentSetofPathGraph/MaxWeightIndependentSetofPathGraphTest.class" afterPath="$PROJECT_DIR$/out/production/MaxWeightIndependentSetofPathGraph/MaxWeightIndependentSetofPathGraphTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaxWeightIndependentSetOfPathGraph.kt" afterPath="$PROJECT_DIR$/src/MaxWeightIndependentSetOfPathGraph.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaxWeightIndependentSetOfPathGraphTest.kt" afterPath="$PROJECT_DIR$/src/MaxWeightIndependentSetOfPathGraphTest.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +27,8 @@
       <file leaf-file-name="MaxWeightIndependentSetOfPathGraph.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MaxWeightIndependentSetOfPathGraph.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="375">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -334,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MaxWeightIndependentSetOfPathGraph.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="375">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding />
         </state>
       </provider>
