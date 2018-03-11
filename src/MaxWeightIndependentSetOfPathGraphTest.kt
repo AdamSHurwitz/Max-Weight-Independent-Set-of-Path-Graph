@@ -9,7 +9,7 @@ object MaxWeightIndependentSetofPathGraphTest {
                 .inputStream()
                 .bufferedReader()
                 .forEachLine { it ->
-                    inputArrayList.add(Node(i, it.toInt(), arrayListOf()))
+                    inputArrayList.add(Node(i, it.toInt(), arrayListOf(i)))
                     i++
                 }
         inputArrayList.remove(inputArrayList.get(0))
